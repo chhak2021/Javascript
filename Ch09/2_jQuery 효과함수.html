@@ -33,27 +33,27 @@
         $(function(){
 
             $('button:eq(0)').click(function(){
-                $('.box1').show();
+                $('.box1').show(1000);
             });
 
             $('button:eq(1)').click(function(){
-                $('.box1').hide();
+                $('.box1').hide(1000);
             });
             
             $('button:eq(2)').click(function(){
-
+                $('.box2').fadeIn(1000);
             });
             
             $('button:eq(3)').click(function(){
-
+                $('.box2').fadeOut(1000);
             });
             
             $('button:eq(4)').click(function(){
-
+                $('.box3').slideUp(1000);
             });
             
             $('button:eq(5)').click(function(){
-
+                $('.box3').slideDown(1000);
             });
         });
 
